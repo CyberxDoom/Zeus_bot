@@ -82,12 +82,12 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="❔Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ❔", callback_data="help_back"),
+            text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text=" ᴏᴡɴᴇʀ ", url=f"https://t.me/heyaaman"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/phoenix_empire"),
         InlineKeyboardButton(
-            text=" ɴᴇᴛᴡᴏʀᴋ ", url=f"https://t.me/Phoenix_Empire"
+            text=" ɴᴇᴛᴡᴏʀᴋ ", url=f"https://t.me/Phoenix_Empire/28"
         ),
     ],
     [
@@ -109,7 +109,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @SiderzDonate's 💕"""
+ @heyaaman's"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -492,8 +492,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *𝗣𝗛𝗢𝗘𝗡𝗜𝗫*
-                 \nHere is the [](https://github.com/DarkCybers/innexiaBot) .""",
+            text=""" Hi.. I'm *𝗣𝗛𝗢𝗘𝗡𝗜𝗫*
+                 \nHere is the [](https://github.com/Heyaaman-UB/innexiaBot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
