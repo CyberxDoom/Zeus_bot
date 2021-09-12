@@ -72,10 +72,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-INNEXIA_IMG = "https://telegra.ph/file/cbd8d600f3d5ac62a2b8f.jpg"
+INNEXIA_IMG = "https://telegra.ph/file/e95080a2b21d656576cc5.jpg"
 
 PM_START_TEXT = """
-`Heya` 🤗 `I am` **Phoenix** `your group super bot`
+`Heya` `I am` **Phoeni✘**(https://telegra.ph/file/e95080a2b21d656576cc5.jpg)`your group super bot`
 `I am very fast and  more efficient  I provide awesome  features which a owner will look for  filter ,warn system,note keeping system flood!`
 """
 
@@ -391,7 +391,7 @@ def innexia_about_callback(update, context):
             text=f"*Here's basic Help regarding* *How to use Me?*"
             f"\n\n• Firstly Add {dispatcher.bot.first_name} to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n• After adding promote me manually with full rights for faster experience.\n"
-            f"\n• Than send `/admincache@InnexiaBot` in that chat to refresh admin list in My database.\n"
+            f"\n• Than send `/admincache@PhoenixWarmedbot` in that chat to refresh admin list in My database.\n"
             f"\n\n*All done now use below given button's to know about use!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -465,8 +465,8 @@ def innexia_about_callback(update, context):
         )
     elif query.data == "innexia_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR INNEXIA DEV'S</b>\n"
-            f"\nHere Some Developers Helping in Making The Innexia Bot",
+            text=f"<b> CREDIT FOR Phoeni✘ Collosus DEV'S</b>\n"
+            f"\nHere Some Developers Helping in Making The Phoeni✘ Collosus Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
