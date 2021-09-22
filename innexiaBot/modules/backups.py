@@ -325,7 +325,7 @@ def export_data(update, context):
         },
     }
     baccinfo = json.dumps(backup, indent=4)
-    with open("innexiaBot{}.backup".format(chat_id), "w") as f:
+    with open("PhoenixWarmedbot{}.backup".format(chat_id), "w") as f:
         f.write(str(baccinfo))
     context.bot.sendChatAction(current_chat_id, "upload_document")
     tgl = time.strftime("%H:%M:%S - %d/%m/%Y", time.localtime(time.time()))
@@ -341,15 +341,15 @@ def export_data(update, context):
         pass
     context.bot.sendDocument(
         current_chat_id,
-        document=open("innexiaBot{}.backup".format(chat_id), "rb"),
-        caption="💾*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `innexiaBot-Backup` was specially made for notes 📚.".format(
+        document=open("PhoenixWarmedbot{}.backup".format(chat_id), "rb"),
+        caption="💾*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `PhoenixWarmedbot-Backup` was specially made for notes.".format(
             chat.title, chat_id, tgl
         ),
         timeout=360,
         reply_to_message_id=msg.message_id,
         parse_mode=ParseMode.MARKDOWN,
     )
-    os.remove("innexiaBot{}.backup".format(chat_id))  # Cleaning file
+    os.remove("PhoenixWarmedbot{}.backup".format(chat_id))  # Cleaning file
 
 
 # Temporary data
@@ -372,7 +372,7 @@ __mod_name__ = "Backup"
 __help__ = """
 *Only for group owner:*
 
- ❍ /import: Reply to the backup file for the butler / emilia group to import as much as possible, making transfers very easy! \
+ ❍ /import: Reply to the backup file for the butler / PhoenixWarmed group to import as much as possible, making transfers very easy! \
  Note that files / photos cannot be imported due to telegram restrictions.
 
  ❍ /export: Export group data, which will be exported are: rules, notes (documents, images, music, video, audio, voice, text, text buttons) \
