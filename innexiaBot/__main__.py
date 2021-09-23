@@ -97,7 +97,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text=" Sᴜᴍᴍᴏɴ Mᴇ ", url="http://t.me/PhoenixWarmedbot?startgroup=true"),
+        InlineKeyboardButton(text=" ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url="http://t.me/PhoenixWarmedbot?startgroup=true"),
     ],
 ]
 
@@ -367,10 +367,10 @@ def innexia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text=" ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ", url="t.me/phoenix_empire"
+                            text=" sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ", url="t.me/CFC_BOT_support"
                         ),
                         InlineKeyboardButton(
-                            text=" sᴘᴀᴍ ɢʀᴏᴜᴘ ", url="t.me/PHOENIXPIRATES"
+                            text=" ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ", url="t.me/Phoenix_Empire"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="innexia_back")],
@@ -443,8 +443,8 @@ def innexia_about_callback(update, context):
         )
     elif query.data == "innexia_support":
         query.message.edit_text(
-            text="* Phoeni✘'s other chats and channel*"
-            "\nJoin Quotes Channel/Fed/Support Group/Channel/",
+            text="* Phoeni✘'s other chats and channels*"
+            "\nJoin Quotes Channel/Fed/Spam Group/CFC Hub",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -453,8 +453,8 @@ def innexia_about_callback(update, context):
                     InlineKeyboardButton(text="Fᴇᴅ", url="t.me/PHOENIX_F3D_V1"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/CFC_BOT_support"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/phoenix_empire"),
+                    InlineKeyboardButton(text="ᴄғᴄ ʜᴜʙ", url="t.me/cFcHuB"),
+                    InlineKeyboardButton(text="sᴘᴀᴍ ɢʀᴏᴜᴘ", url="https://t.me/PHOENIXPIRATES"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="innexia_basichelp"),
