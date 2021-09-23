@@ -443,8 +443,8 @@ def innexia_about_callback(update, context):
         )
     elif query.data == "innexia_support":
         query.message.edit_text(
-            text="* Innexia support chats*"
-            "\nJoin Support Group/Channel",
+            text="* Phoeni✘'s other chats and channel*"
+            "\nJoin Quotes Channel/Fed/Support Group/Channel/",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
