@@ -22,7 +22,7 @@ async def song(client, message):
         "Downloading your song,\nPlz wait ⏳️"
     )
     try:
-        r = requests.get(f"https://jevcplayerbot-saavndl.herokuapp.com/result/?query={args}")
+        r = requests.get(f"https://jostapi.herokuapp.com/saavn?query={args}")
     except Exception as e:
         await m.edit(str(e))
         return
@@ -36,14 +36,15 @@ async def song(client, message):
     os.remove(ffile)
     await m.delete()
 
+
 #deezer#
-# Credits for @heyaaman
+# Credits for @TheHamkerCat
 
 import os
 import aiofiles
 import aiohttp
 from pyrogram import filters
-from innexiaBot import pbot as AMELIA
+from innexiaBot import pbot as innexia
 
 ARQ = "https://thearq.tech/"
 
