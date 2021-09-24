@@ -43,7 +43,7 @@ import os
 import aiofiles
 import aiohttp
 from pyrogram import filters
-from AmeliaRobot import pbot as AMELIA
+from innexiaBot import pbot as AMELIA
 
 ARQ = "https://thearq.tech/"
 
