@@ -75,9 +75,10 @@ def get_readable_time(seconds: int) -> str:
 INNEXIA_IMG = "https://telegra.ph/file/65b106d1b76af6dba124f.jpg"
 
 PM_START_TEXT = """
-`ʜᴇʟʟᴏ` ❤️‍🔥 `ɪ ᴀᴍ` [Phoeni✘](https://telegra.ph/file/92e864962ae18f73c6b6e.jpg) ` ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ`
-`I am very fast and  more efficient  I provide awesome  features which a owner will look for  filter ,warn system,note keeping system flood!`
-"""
+ʜᴇʟʟᴏ ❤️‍🔥 ɪ ᴀᴍ [Phoeni✘](https://telegra.ph/file/92e864962ae18f73c6b6e.jpg) ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴛᴏ 
+ʜᴇʟᴘ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀ ᴀɴᴅ ᴀᴅᴍɪɴs ᴡɪᴛʜ ᴍʏ sᴜᴘᴇʀ ᴀᴅᴠᴀɴᴄᴇᴅ ғᴇᴀᴛᴜʀᴇs, ғᴏʀ ʀᴇᴘᴏʀᴛɪɴɢ ᴀɴʏ ɪssᴜᴇs ʀᴇɢᴀʀᴅɪɴɢ ᴍᴇ
+ᴋɪɴᴅʟʏ ʀᴇᴘᴏʀᴛ ɪɴ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ sᴏ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀs ᴄᴀɴ ғɪx ᴍᴇ ᴏᴜᴛ ғᴏʀ ʏᴏᴜʀ ɴᴇᴇᴅs.
+""" 
 
 buttons = [
     [
