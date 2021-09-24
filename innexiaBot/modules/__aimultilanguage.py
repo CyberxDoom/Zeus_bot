@@ -59,10 +59,10 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("innexia AI Already Activated In This Chat")
+            await lel.edit("Phoeni✘ AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"innexia AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"Phoeni✘ AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
@@ -72,7 +72,7 @@ async def hmm(_, message):
             await lel.edit("innexia AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"innexia AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"Phoeni✘ AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -356,7 +356,7 @@ async def inuka(client, message):
 
 __help__ = """
 <b> Chatbot </b>
-innexia AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
+Phoeni✘ AI 3.0 IS THE ONLY AI SYSTEM WHICH CAN DETECT & REPLY UPTO 200 LANGUAGES
  - /chatbot [ON/OFF]: Enables and disables AI Chat mode (EXCLUSIVE)
  - /chatbot EN : Enables English only chatbot
  
