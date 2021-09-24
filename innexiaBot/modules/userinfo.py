@@ -335,16 +335,16 @@ def info(update: Update, context: CallbackContext):
         try:
             profile = context.bot.get_user_profile_photos(user.id).photos[0][-1]
             _file = bot.get_file(profile["file_id"])
-            _file.download(f"{user.id}.png")
+            _file.download(f"{user.id}.jpg")
 
             message.reply_document(
-                document=open(f"{user.id}.png", "rb"),
+                document=open(f"{user.id}.jpg", "rb"),
                 caption=(text),
                 parse_mode=ParseMode.HTML,
                 disable_web_page_preview=True,
             )
 
-            os.remove(f"{user.id}.png")
+            os.remove(f"{user.id}.jpg")
         # Incase user don't have profile pic, send normal text
         except IndexError:
             message.reply_text(
