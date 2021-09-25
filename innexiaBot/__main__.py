@@ -357,8 +357,8 @@ def innexia_about_callback(update, context):
     query = update.callback_query
     if query.data == "innexia_":
         query.message.edit_text(
-            text=""" 𝗣𝗛𝗢𝗘𝗡𝗜𝗫 - A bot to manage your groups with additional features!
-            \nHere's the basic help regarding use of Innexia.
+            text=""" Phoeni✘ - A bot to manage your groups with additional features!
+            \nHere's the basic help regarding use of [Phoeni✘](https://telegra.ph/file/7d36b1edf06366e5be33a.mp4).
             
             \nAlmost all modules usage defined in the help menu, checkout by sending `/help`
             \nReport error/bugs click the Button""",
@@ -389,7 +389,7 @@ def innexia_about_callback(update, context):
 
     elif query.data == "innexia_basichelp":
         query.message.edit_text(
-            text=f"*Here's basic Help regarding* *How to use Me?*"
+            text=f"*Here's basic Help regarding [Phoeni✘](https://telegra.ph/file/7d36b1edf06366e5be33a.mp4)* *How to use Me?*"
             f"\n\n• Firstly Add {dispatcher.bot.first_name} to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n• After adding promote me manually with full rights for faster experience.\n"
             f"\n• Than send `/admincache@PhoenixWarmedbot` in that chat to refresh admin list in My database.\n"
@@ -417,7 +417,7 @@ def innexia_about_callback(update, context):
     elif query.data == "innexia_admin":
         query.message.edit_text(
             text=f"*Let's make your group bit effective now*"
-            f"\nCongragulations, Innexia now ready to manage your group."
+            f"\nCongragulations, Phoeni✘ now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -493,8 +493,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi.. I'm *𝗣𝗛𝗢𝗘𝗡𝗜𝗫*
-                 \nHere is the [](https://github.com/Heyaaman-UB/innexiaBot) .""",
+            text=""" Hi.. I'm *Phoeni✘*
+                 \nHere is the [](https://github.com/heyaaman/innexiaBot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
