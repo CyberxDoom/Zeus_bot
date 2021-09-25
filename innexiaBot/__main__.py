@@ -105,7 +105,7 @@ buttons = [
 
 HELP_STRINGS = """
 **SETTINGS**
-`Click on the buttons below to get documentation about specific modules..`)"""
+Click on the buttons below to get documentation about specific modules of [Phoeni✘](https://telegra.ph/file/7d36b1edf06366e5be33a.mp4)..)"""
 
 
 
