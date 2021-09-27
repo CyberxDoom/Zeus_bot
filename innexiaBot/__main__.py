@@ -358,7 +358,7 @@ def innexia_about_callback(update, context):
     if query.data == "innexia_":
         query.message.edit_text(
             text=""" Phoeni✘ - A bot to manage your groups with additional features!
-            \nHere's the basic help regarding use of [Phoeni✘](https://telegra.ph/file/7d36b1edf06366e5be33a.mp4).
+            \nHere's the basic help regarding use of Phoeni✘.
             
             \nAlmost all modules usage defined in the help menu, checkout by sending `/help`
             \nReport error/bugs click the Button""",
@@ -389,7 +389,7 @@ def innexia_about_callback(update, context):
 
     elif query.data == "innexia_basichelp":
         query.message.edit_text(
-            text=f"*Here's basic Help regarding [Phoeni✘](https://telegra.ph/file/7d36b1edf06366e5be33a.mp4)* *How to use Me?*"
+            text=f"*Here's basic Help regarding Phoeni✘* *How to use Me?*"
             f"\n\n• Firstly Add {dispatcher.bot.first_name} to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n• After adding promote me manually with full rights for faster experience.\n"
             f"\n• Than send `/admincache@PhoenixWarmedbot` in that chat to refresh admin list in My database.\n"
