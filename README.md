@@ -14,7 +14,7 @@
 
 # ❤️ Support
 <a href="https://t.me/CFC_BOT_support"><img src="https://img.shields.io/badge/Join-%20Support Chat-red.svg?logo=Telegram"></a>
-<a href="t.me/phoenix_empire"><img src="https://img.shields.io/badge/Join-%20Channel Chat-Black.svg?logo=Telegram"></a>
+<a href="t.me/phoenix_empire"><img src="https://img.shields.io/badge/Join-%20Channel-Black.svg?logo=Telegram"></a>
 
 
 ## ✨ Heroku Deploy ✨
