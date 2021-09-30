@@ -15,8 +15,6 @@
 <a href="t.me/phoenix_empire"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 
-## Click The Image And Deploy Your Bot
-
 ## ✨ Heroku Deploy ✨
 The easiest way to deploy this Bot is via Heroku.
 
