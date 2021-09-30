@@ -13,7 +13,7 @@
 <img src="https://telegra.ph/file/74a1b9cf4bbf4f4880246.jpg">
 
 # ❤️ Support
-<a href="https://t.me/CFC_BOT_support"><img src="https://img.shields.io/badge/Join-Telegram%20Support Chat-red.svg?logo=Telegram"></a>
+<a href="https://t.me/CFC_BOT_support"><img src="https://img.shields.io/badge/Join-%20Support Chat-red.svg?logo=Telegram"></a>
 <a href="t.me/phoenix_empire"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
 
