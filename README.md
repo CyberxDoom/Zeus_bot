@@ -1,21 +1,21 @@
-<h1 align="center"><b> ⚡ Phoeni✘ ⚡ </b></h1>
+<h1 align="center"><b> ⚡ 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱ ⚡ </b></h1>
 
 <h4 align="center">A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
 <p align='center'>
   <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?style=flat-square&logo=python&color=blue" /> </a>
   <a href="https://github.com/heyaaman/PhoenixCollosus/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" /> </a>
-  <a href="https://t.me/heyaaman" alt="Owner"> <img src="https://img.shields.io/badge/Owner%20-red.svg?style=flat-square" /> </a>
+  <a href="https://t.me/bitchlasagnya" alt="Owner"> <img src="https://img.shields.io/badge/Owner%20-red.svg?style=flat-square" /> </a>
 </p>
 
-<p align="center"><a href="https://t.me/PhoenixWarmedbot"><img src="(https://telegra.ph/file/74a1b9cf4bbf4f4880246.jpg)" width="400"></a></p>
+<p align="center"><a href="https://zeus444_bot"><img src="(https://telegra.ph/file/170c731bd4b32eb136003.jpg)" width="400"></a></p>
 
-## Available on Telegram as [@PhoenixWarmedbot](https://t.me/PhoenixWarmedbot)
+## Available on Telegram as [@zeus444_bot](https://t.me/zeus444_bot)
 
-<img src="https://telegra.ph/file/74a1b9cf4bbf4f4880246.jpg">
+<img src="https://telegra.ph/file/170c731bd4b32eb136003.jpg">
 
 # ❤️ Support
-<a href="https://t.me/CFC_BOT_support"><img src="https://img.shields.io/badge/Join-%20Support Chat-red.svg?logo=Telegram"></a>
-<a href="https://t.me/phoenix_empire"><img src="https://img.shields.io/badge/Join-%20Channel-Black.svg?logo=Telegram"></a>
+<a href="https://t.me/thezeusSupport"><img src="https://img.shields.io/badge/Join-%20Support Chat-red.svg?logo=Telegram"></a>
+<a href="https://t.me/thezeusSupport"><img src="https://img.shields.io/badge/Join-%20Channel-Black.svg?logo=Telegram"></a>
 
 
 ## ✨ Heroku Deploy ✨
