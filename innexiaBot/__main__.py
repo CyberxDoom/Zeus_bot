@@ -72,10 +72,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-INNEXIA_IMG = "https://telegra.ph/file/65b106d1b76af6dba124f.jpg"
+INNEXIA_IMG = "https://telegra.ph/file/246bdc767f35c6ef3eb32.jpg"
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ ❤️‍🔥 ɪ ᴀᴍ [Phoeni✘](https://telegra.ph/file/92e864962ae18f73c6b6e.jpg) ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ 
+ʜᴇʟʟᴏ ❤️‍🔥 ɪ ᴀᴍ [𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱](https://telegra.ph/file/246bdc767f35c6ef3eb32.jpg) ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ 
 ᴛᴏ ʜᴇʟᴘ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀ ᴀɴᴅ ᴀᴅᴍɪɴs ᴡɪᴛʜ ᴍʏ sᴜᴘᴇʀ ᴀᴅᴠᴀɴᴄᴇᴅ ғᴇᴀᴛᴜʀᴇs, ғᴏʀ ʀᴇᴘᴏʀᴛɪɴɢ ᴀɴʏ ɪssᴜᴇs
 ʀᴇɢᴀʀᴅɪɴɢ ᴍᴇ ᴋɪɴᴅʟʏ ʀᴇᴘᴏʀᴛ ɪɴ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ sᴏ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀs ᴄᴀɴ ғɪx ᴍᴇ ᴏᴜᴛ ғᴏʀ ʏᴏᴜʀ ɴᴇᴇᴅs.
 """ 
@@ -86,9 +86,9 @@ buttons = [
             text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/phoenix_empire"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/ZeusUpdates"),
         InlineKeyboardButton(
-            text=" ɴᴇᴛᴡᴏʀᴋ ", url=f"https://t.me/Phoenix_Empire/28"
+            text=" ɴᴇᴛᴡᴏʀᴋ ", url=f"https://t.me/The_444_network"
         ),
     ],
     [
@@ -98,14 +98,14 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text=" ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url="http://t.me/PhoenixWarmedbot?startgroup=true"),
+        InlineKeyboardButton(text=" ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url="http://t.me/zeus444_bot?startgroup=true"),
     ],
 ]
 
 
 HELP_STRINGS = """
 **SETTINGS**
-Click on the buttons below to get documentation about specific modules of [Phoeni✘](https://telegra.ph/file/7d36b1edf06366e5be33a.mp4)..)"""
+Click on the buttons below to get documentation about specific modules of [𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱](https://telegra.ph/file/246bdc767f35c6ef3eb32.jpg)..)"""
 
 
 
@@ -357,8 +357,8 @@ def innexia_about_callback(update, context):
     query = update.callback_query
     if query.data == "innexia_":
         query.message.edit_text(
-            text=""" Phoeni✘ - A bot to manage your groups with additional features!
-            \nHere's the basic help regarding use of Phoeni✘.
+            text=""" 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱  - A bot to manage your groups with additional features!
+            \nHere's the basic help regarding use of 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱.
             
             \nAlmost all modules usage defined in the help menu, checkout by sending `/help`
             \nReport error/bugs click the Button""",
@@ -368,10 +368,10 @@ def innexia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text=" sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ", url="t.me/CFC_BOT_support"
+                            text=" sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ", url="t.me/ZeusSupport"
                         ),
                         InlineKeyboardButton(
-                            text=" ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ", url="t.me/Phoenix_Empire"
+                            text=" ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ", url="t.me/ZeusUpdates"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="innexia_back")],
@@ -389,10 +389,10 @@ def innexia_about_callback(update, context):
 
     elif query.data == "innexia_basichelp":
         query.message.edit_text(
-            text=f"*Here's basic Help regarding Phoeni✘* *How to use Me?*"
+            text=f"*Here's basic Help regarding 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱* *How to use Me?*"
             f"\n\n• Firstly Add {dispatcher.bot.first_name} to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n• After adding promote me manually with full rights for faster experience.\n"
-            f"\n• Than send `/admincache@PhoenixWarmedbot` in that chat to refresh admin list in My database.\n"
+            f"\n• Than send `/admincache@zeus444_bot` in that chat to refresh admin list in My database.\n"
             f"\n\n*All done now use below given button's to know about use!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -417,7 +417,7 @@ def innexia_about_callback(update, context):
     elif query.data == "innexia_admin":
         query.message.edit_text(
             text=f"*Let's make your group bit effective now*"
-            f"\nCongragulations, Phoeni✘ now ready to manage your group."
+            f"\nCongragulations, 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱ now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -466,18 +466,18 @@ def innexia_about_callback(update, context):
         )
     elif query.data == "innexia_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR Phoeni✘ Collosus DEV'S</b>\n"
-            f"\nHere Some Developers Helping in Making The Phoeni✘ Collosus Bot",
+            text=f"<b> CREDIT FOR𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱  DEV'S</b>\n"
+            f"\nHere Some Developers Helping in Making The 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱ Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ʜᴇʏᴀᴀᴍᴀɴ", url="t.me/heyaaman"),
-                    InlineKeyboardButton(text="ᴘʜᴏᴇɴɪxᴡᴀʀᴍᴇᴅ", url="t.me/PhoenixWarmed"),
+                    InlineKeyboardButton(text="Noah", url="t.me/bitchlasagnya"),
+                    InlineKeyboardButton(text="Rihaal", url="t.me/Rihu_mone"),
                  ],
                  [
-                    InlineKeyboardButton(text="ɢᴜʀᴊᴀʀ", url="t.me/GURJAR_XD"),
-                    InlineKeyboardButton(text="ʙᴀᴢɪɢᴀʀ", url="https://t.me/BazigarYT"),
+                    InlineKeyboardButton(text="Stephen", url="t.me/GURJAR_XD"),
+                    InlineKeyboardButton(text="Badboy", url="https://t.me/cyber_doom"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="innexia_basichelp"),
@@ -493,7 +493,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi.. I'm *Phoeni✘*
+            text=""" Hi.. I'm *𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱*
                  \nHere is the [](https://github.com/heyaaman/innexiaBot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
