@@ -445,17 +445,17 @@ def innexia_about_callback(update, context):
     elif query.data == "innexia_support":
         query.message.edit_text(
             text="* Phoeni✘'s other chats and channels*"
-            "\nJoin Quotes Channel/Fed/Spam Group/CFC Hub",
+            "\nJoin support/Update/Chatting group/Status group",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ǫᴜᴏᴛᴇs ᴄʜᴀɴɴᴇʟ", url="t.me/aboutusso"),
-                    InlineKeyboardButton(text="Fᴇᴅ", url="t.me/PHOENIX_F3D_V1"),
+                    InlineKeyboardButton(text="Support", url="t.me/ZeusSupport"),
+                    InlineKeyboardButton(text="Update", url="t.me/TheZeusSupport"),
                  ],
                  [
-                    InlineKeyboardButton(text="ᴄғᴄ ʜᴜʙ", url="t.me/cFcHuB"),
-                    InlineKeyboardButton(text="sᴘᴀᴍ ɢʀᴏᴜᴘ", url="https://t.me/PHOENIXPIRATES"),
+                    InlineKeyboardButton(text="Chatting group", url="t.me/English_chatting_club_global"),
+                    InlineKeyboardButton(text="status group", url="https://t.me/PHOENIXPIRATES"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="innexia_basichelp"),
@@ -476,7 +476,7 @@ def innexia_about_callback(update, context):
                     InlineKeyboardButton(text="Rihaal", url="t.me/Rihu_mone"),
                  ],
                  [
-                    InlineKeyboardButton(text="Stephen", url="t.me/GURJAR_XD"),
+                    InlineKeyboardButton(text="Stephen", url="t.me/Taargeriyan"),
                     InlineKeyboardButton(text="Badboy", url="https://t.me/cyber_doom"),
                  ],
                  [
