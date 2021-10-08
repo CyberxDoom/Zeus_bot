@@ -451,7 +451,7 @@ def innexia_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Support", url="t.me/TheZeusSupport"),
-                    InlineKeyboardButton(text="Update", url="t.me/TheZeusSupport"),
+                    InlineKeyboardButton(text="Update", url="t.me/ZeusUpdates"),
                  ],
                  [
                     InlineKeyboardButton(text="Chatting group", url="t.me/English_chatting_club_global"),
