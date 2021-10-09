@@ -445,7 +445,7 @@ def innexia_about_callback(update, context):
     elif query.data == "innexia_support":
         query.message.edit_text(
             text="* 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒's other chats and channels*"
-            "\nJoin support/Update/Chatting group/Status group",
+            "\nJoin support/Update/Logs/Status group",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
