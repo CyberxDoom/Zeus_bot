@@ -1,4 +1,4 @@
-from innexiaBot.mongo import client as db_x
+from YoneRobot.mongo import client as db_x
 
 lydia = db_x["CAHTBOT"]
 
