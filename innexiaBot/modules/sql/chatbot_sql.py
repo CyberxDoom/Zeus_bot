@@ -1,6 +1,6 @@
 import threading
 
-from innexiabot.modules.sql import BASE, SESSION
+from innexiaBot.modules.sql import BASE, SESSION
 from sqlalchemy import Column, String
 
 
