@@ -368,7 +368,7 @@ def innexia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text=" sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ", url="t.me/ZeusSupport"
+                            text=" sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ", url="t.me/TheZeusSupport"
                         ),
                         InlineKeyboardButton(
                             text=" ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ", url="t.me/ZeusUpdates"
