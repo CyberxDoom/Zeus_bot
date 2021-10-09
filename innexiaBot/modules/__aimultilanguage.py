@@ -42,7 +42,7 @@ async def fetch(url):
 innexia_chats = []
 en_chats = []
 
-@innexia.on_message(
+@innexiaBot.on_message(
     filters.command("chatbot") & ~filters.edited & ~filters.bot & ~filters.private
 )
 @admins_only
