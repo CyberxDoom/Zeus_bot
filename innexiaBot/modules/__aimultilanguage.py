@@ -11,10 +11,10 @@ import aiohttp
 from google_trans_new import google_translator
 from pyrogram import filters
 
-from innexiabot import BOT_ID
-from innexiabot.helper_extra.aichat import add_chat, get_session, remove_chat
-from innexiabot.pyrogramee.pluginshelper import admins_only, edit_or_reply
-from innexiabot import pbot as Zeus
+from innexiaBot import BOT_ID
+from innexiaBot.helper_extra.aichat import add_chat, get_session, remove_chat
+from innexiaBot.pyrogramee.pluginshelper import admins_only, edit_or_reply
+from innexiaBot import pbot as Zeus
 
 translator = google_translator()
 import requests
@@ -251,8 +251,8 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @cyber_doom
-    test = test.replace("yone", "Aco")
-    test = test.replace("yone", "Aco")
+    test = test.replace("zeus", "Aco")
+    test = test.replace("zeus", "Aco")
     URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@zeus444_bot&ownername=@bitchlasagnya"
     try:
         r = requests.request("GET", url=URL)
@@ -329,8 +329,8 @@ async def inuka(client, message):
     # test = emoji.demojize(test.strip())
 
     # Kang with the credits bitches @cyber_doom
-    test = test.replace("yone", "Aco")
-    test = test.replace("yone", "Aco")
+    test = test.replace("zeus", "Aco")
+    test = test.replace("zeus", "Aco")
     URL = f"https://api.affiliateplus.xyz/api/chatbot?message={test}&botname=@zeus444_bot&ownername=@bitchlasagnya"
     try:
         r = requests.request("GET", url=URL)
