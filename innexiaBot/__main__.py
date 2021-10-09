@@ -454,7 +454,7 @@ def innexia_about_callback(update, context):
                     InlineKeyboardButton(text="Update", url="t.me/ZeusUpdates"),
                  ],
                  [
-                    InlineKeyboardButton(text="Chatting group", url="t.me/English_chatting_club_global"),
+                    InlineKeyboardButton(text="Logs", url="t.me/Zeus_botLogs"),
                     InlineKeyboardButton(text="status group", url="https://t.me/Legend_of_the_fall444"),
                  ],
                  [
