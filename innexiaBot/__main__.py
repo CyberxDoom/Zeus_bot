@@ -72,10 +72,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-INNEXIA_IMG = "https://telegra.ph/file/246bdc767f35c6ef3eb32.jpg"
+INNEXIA_IMG = "https://telegra.ph/file/d042bfd781562ab2e34a7.jpg"
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ ❤️‍🔥 ɪ ᴀᴍ [𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱](https://telegra.ph/file/246bdc767f35c6ef3eb32.jpg) ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ 
+ʜᴇʟʟᴏ ❤️‍🔥 ɪ ᴀᴍ [__**HW BOT**__](https://telegra.ph/file/246bdc767f35c6ef3eb32.jpg) ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ 
 ᴛᴏ ʜᴇʟᴘ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀ ᴀɴᴅ ᴀᴅᴍɪɴs ᴡɪᴛʜ ᴍʏ sᴜᴘᴇʀ ᴀᴅᴠᴀɴᴄᴇᴅ ғᴇᴀᴛᴜʀᴇs, ғᴏʀ ʀᴇᴘᴏʀᴛɪɴɢ ᴀɴʏ ɪssᴜᴇs
 ʀᴇɢᴀʀᴅɪɴɢ ᴍᴇ ᴋɪɴᴅʟʏ ʀᴇᴘᴏʀᴛ ɪɴ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ sᴏ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀs ᴄᴀɴ ғɪx ᴍᴇ ᴏᴜᴛ ғᴏʀ ʏᴏᴜʀ ɴᴇᴇᴅs.
 """ 
@@ -86,9 +86,9 @@ buttons = [
             text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/ZeusUpdates"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/HwMusicUpdates"),
         InlineKeyboardButton(
-            text=" ɴᴇᴛᴡᴏʀᴋ ", url=f"https://t.me/The_444_network"
+            text=" ɴᴇᴛᴡᴏʀᴋ ", url=f"https://t.me/PHOENIX_EMPIRE"
         ),
     ],
     [
@@ -98,7 +98,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text=" ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url="http://t.me/zeus444_bot?startgroup=true"),
+        InlineKeyboardButton(text=" ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ", url="http://t.me/HwV2Bot?startgroup=true"),
     ],
 ]
 
@@ -110,7 +110,7 @@ Click on the buttons below to get documentation about specific modules of [𝐋�
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @heyaaman's"""
+ @iamhackerworld's"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -225,7 +225,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/thezeusSupport")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/CFC_BOT_SUPPORT")]]
             ),
         )
         
@@ -357,8 +357,8 @@ def innexia_about_callback(update, context):
     query = update.callback_query
     if query.data == "innexia_":
         query.message.edit_text(
-            text=""" 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱  - A bot to manage your groups with additional features!
-            \nHere's the basic help regarding use of 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱.
+            text=""" __**HW BOT**__  - A bot to manage your groups with additional features!
+            \nHere's the basic help regarding use of **HW BOT V2**.
             
             \nAlmost all modules usage defined in the help menu, checkout by sending `/help`
             \nReport error/bugs click the Button""",
@@ -368,10 +368,10 @@ def innexia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text=" sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ", url="t.me/TheZeusSupport"
+                            text=" sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ", url="t.me/CFC_BOT_SUPPORT"
                         ),
                         InlineKeyboardButton(
-                            text=" ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ", url="t.me/ZeusUpdates"
+                            text=" ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ", url="t.me/HwMusicUpdates"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="innexia_back")],
@@ -389,10 +389,10 @@ def innexia_about_callback(update, context):
 
     elif query.data == "innexia_basichelp":
         query.message.edit_text(
-            text=f"*Here's basic Help regarding 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱* *How to use Me?*"
+            text=f"*Here's basic Help regarding __**HW BOT**__* *How to use Me?*"
             f"\n\n• Firstly Add {dispatcher.bot.first_name} to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n• After adding promote me manually with full rights for faster experience.\n"
-            f"\n• Than send `/admincache@zeus444_bot` in that chat to refresh admin list in My database.\n"
+            f"\n• Than send `/admincache@HwV2Bot` in that chat to refresh admin list in My database.\n"
             f"\n\n*All done now use below given button's to know about use!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -417,7 +417,7 @@ def innexia_about_callback(update, context):
     elif query.data == "innexia_admin":
         query.message.edit_text(
             text=f"*Let's make your group bit effective now*"
-            f"\nCongragulations, 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱ now ready to manage your group."
+            f"\nCongragulations, __**HW BOT**__ now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -444,18 +444,18 @@ def innexia_about_callback(update, context):
         )
     elif query.data == "innexia_support":
         query.message.edit_text(
-            text="* 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒's other chats and channels*"
+            text="* __**HW BOT**__ other chats and channels*"
             "\nJoin support/Update/Logs/Status group",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/TheZeusSupport"),
-                    InlineKeyboardButton(text="Update", url="t.me/ZeusUpdates"),
+                    InlineKeyboardButton(text="Support", url="t.me/CFC_BOT_SUPPORT"),
+                    InlineKeyboardButton(text="Update", url="t.me/HwMusicUpdates"),
                  ],
                  [
-                    InlineKeyboardButton(text="Logs", url="t.me/Zeus_botLogs"),
-                    InlineKeyboardButton(text="status group", url="https://t.me/Legend_of_the_fall444"),
+                    InlineKeyboardButton(text="Owner", url="t.me/iamhackerworld"),
+                    InlineKeyboardButton(text="Another Bot", url="https://t.me/HwMusicBot"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="innexia_basichelp"),
@@ -466,18 +466,18 @@ def innexia_about_callback(update, context):
         )
     elif query.data == "innexia_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱  DEV'S</b>\n"
-            f"\nHere Some Developers Helping in Making The 𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱ Bot",
+            text=f"<b> CREDIT HW BOT  DEV'S</b>\n"
+            f"\nHere Some Developers Helping in Making The HW BOT Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Noah", url="t.me/bitchlasagnya"),
-                    InlineKeyboardButton(text="Rihaal", url="t.me/Rihu_mone"),
+                    InlineKeyboardButton(text="Bazigar", url="t.me/BAZIGARYT"),
+                    InlineKeyboardButton(text="Hacker World", url="t.me/iamhackerworld"),
                  ],
                  [
-                    InlineKeyboardButton(text="Stephen", url="t.me/Taargeriyan"),
-                    InlineKeyboardButton(text="Badboy", url="https://t.me/cyber_doom"),
+                    InlineKeyboardButton(text="Phoenix", url="t.me/Phoenixwarmed"),
+                    InlineKeyboardButton(text="Heyaaman", url="https://t.me/@heyaaman"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="innexia_basichelp"),
@@ -493,7 +493,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi.. I'm *𝐋𝐎𝐑𝐃 𝐙𝐄𝐔𝐒⁴⁴⁴♱*
+            text=""" Hi.. I'm *HW BOT V2*
                  \nHere is the [](https://github.com/heyaaman/innexiaBot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -747,7 +747,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1947924017 and DONATION_LINK:
+        if OWNER_ID != 5117196135 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
